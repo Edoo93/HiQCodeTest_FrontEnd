@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HiQTest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="http://mottie.github.io/tablesorter/css/theme.default.css" rel="stylesheet">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-lg-12">
+                    <h3 id="welcomeMessage">Project for HiQ front-end position</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-lg-9">
+                <input id ="searchString" type="text" placeholder="Enter Address">
+            </div>
+            <div class="col-xs-12 col-lg-3">
+                <button id="btnSearch">SÖK</button>
+            </div>
+        </div>
+
+        <div class="row">
+                <table class="table table-bordered tablesorter">
+                    <thead>
+                        <tr>
+                        <th>#</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>Country</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                    </tbody>
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.9.1/jquery.tablesorter.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

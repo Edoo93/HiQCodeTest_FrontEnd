@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#welcomeMessage{
+    text-align: center;
+    background-color: crimson;
+    padding: 5px;
+}
+
+#searchString{
+    display: block;
+    margin: 0 auto;
+    width: 100%;     
+    text-align: center;
+}
+
+#btnSearch{
+    display: block;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.table-bordered{
+    margin-top: 15px;  
+}
+
+@media (max-width: 600px){
+    #searchString{
+        width: 100%;
+    }
+    
+    #btnSearch{
+        width: 100%;
+    }
+}
+
