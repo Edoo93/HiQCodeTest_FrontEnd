@@ -1,4 +1,4 @@
-var apiKey = "";
+var apiKey = "1925addd";
 var count = 1;
 
 $(document).ready(function(){
@@ -78,6 +78,7 @@ function populateTable(address, city, country, lat, lng){
 
         
     $row.append($cells);
+    
     $('tbody').append($row);
 }
 
