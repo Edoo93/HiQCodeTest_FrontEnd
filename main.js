@@ -1,4 +1,4 @@
-var apiKey = "1925addd";
+var apiKey = "";
 var count = 1;
 
 $(document).ready(function(){
